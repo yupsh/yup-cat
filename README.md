@@ -1,21 +1,9 @@
-# yup-cat
+[![actions](https://github.com/yupsh/yup-cat/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-cat/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-cat/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-cat/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-cat/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-cat/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-cat/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-cat/actions/workflows/shell.yml)
 
-```
-NAME:
-   cat - concatenate files and print on the standard output
-
-USAGE:
-   cat [OPTIONS] [FILE...]
-
-   Concatenate FILE(s) to standard output.
-   With no FILE, or when FILE is -, read standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --number, -n           number all output lines
-   --number-nonblank, -b  number nonempty output lines (overrides -n)
-   --help, -h             show help
-   --version              print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
