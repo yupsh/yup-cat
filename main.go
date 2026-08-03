@@ -31,11 +31,17 @@ var spec = clix.Spec{
 	Synopsis: synopsis,
 	Build:    build,
 	Flags: []urf.Flag{
-		&urf.BoolFlag{Name: flagNumber, Aliases: []string{"n"}, Usage: "number all output lines"},
+		&urf.BoolFlag{
+			Name:    flagNumber,
+			Aliases: []string{"n"},
+			Usage:   "number all output lines",
+			Sources: urf.EnvVars("YUP_CAT_NUMBER"),
+		},
 		&urf.BoolFlag{
 			Name:    flagNumberNonBlank,
 			Aliases: []string{"b"},
 			Usage:   "number nonempty output lines (overrides -n)",
+			Sources: urf.EnvVars("YUP_CAT_NUMBER_NONBLANK"),
 		},
 	},
 }
